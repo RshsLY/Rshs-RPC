@@ -2,7 +2,7 @@
 ## Overall Farmwork
 ![image](https://github.com/RshsLY/Rshs-RPC/assets/37995682/6579e83a-45ed-4a13-9585-b417adcdac0f)
 
-## Quick Start
+## Quickly Start
 - 导入api依赖
 - 配置并启动Redis
 - 启动Regisity Center
