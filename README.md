@@ -1,6 +1,6 @@
 # Rshs-RPC
 ## Overall Farmwork
-![image](https://github.com/RshsLY/Rshs-RPC/assets/37995682/6579e83a-45ed-4a13-9585-b417adcdac0f)
+![image](https://github.com/RshsLY/Rshs-RPC/assets/37995682/b224f214-3431-4018-ac71-0d5f2b54dab3)
 ![image](https://github.com/RshsLY/Rshs-RPC/assets/37995682/7869cce6-822a-4e02-b3c8-7ff65b3391aa)
 
 
@@ -10,8 +10,8 @@
 - 导入api依赖
 - 配置并启动Redis
 - 启动Regisity Center
-- 启动provider
-- consumer消费对应接口的服务
+- 启动Server
+- Client消费对应接口的服务
 
 ## Implement Notices
 - 注册中心：使用Redis解耦，便于横向纵向扩展，即Regisity Center和Redis都可以搭建集群。Hash结构存储，[ Key：接口类全限定名，InnerKey：host+ip，Value：当前时间+30s ]。
